@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Послуги центру реабілітації SEMIMED — фізіотерапія, лікувальний масаж, кінезіотерапія, електротерапія, реабілітація хребта, спортивна реабілітація.">
+  <meta name="base-path" content=".">
+  <meta property="og:title" content="Послуги — SEMIMED">
+  <meta property="og:description" content="Повний спектр реабілітаційних послуг для вашого відновлення.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://semimed.itkamianets.com/services.html">
+  <title>Послуги — SEMIMED</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo/logo.svg">
+</head>
+<body class="antialiased">
+
+  <!-- HEADER -->
+  <header id="header" class="sticky top-0 z-40 bg-white transition-all duration-300">
+    <div class="container-custom">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="images/logo/logo.svg" alt="SEMIMED" class="h-10 w-auto">
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" data-nav-link data-i18n="nav.home" class="text-body hover:text-primary transition-colors">Головна</a>
+          <a href="services.html" data-nav-link data-i18n="nav.services" class="text-body hover:text-primary transition-colors">Послуги</a>
+          <a href="about.html" data-nav-link data-i18n="nav.about" class="text-body hover:text-primary transition-colors">Про нас</a>
+          <a href="gallery.html" data-nav-link data-i18n="nav.gallery" class="text-body hover:text-primary transition-colors">Галерея</a>
+          <a href="contact.html" data-nav-link data-i18n="nav.contact" class="text-body hover:text-primary transition-colors">Контакти</a>
+        </nav>
+        <div class="hidden lg:flex items-center gap-4">
+          <div class="flex items-center gap-1 text-sm">
+            <button data-lang-switch="uk" class="px-2 py-1 rounded font-bold text-primary transition-colors hover:text-primary-light">UA</button>
+            <span class="text-body-muted">|</span>
+            <button data-lang-switch="en" class="px-2 py-1 rounded opacity-60 transition-colors hover:text-primary-light">EN</button>
+          </div>
+          <a href="contact.html" class="btn-primary text-sm" data-i18n="nav.appointment">Записатися</a>
+        </div>
+        <button id="mobile-menu-toggle" class="lg:hidden p-2 text-body" aria-label="Menu" aria-expanded="false">
+          <svg class="hamburger-icon w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg class="close-icon w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-border">
+      <div class="container-custom py-4 space-y-3">
+        <a href="index.html" data-nav-link data-i18n="nav.home" class="block py-2 text-body hover:text-primary transition-colors">Головна</a>
+        <a href="services.html" data-nav-link data-i18n="nav.services" class="block py-2 text-body hover:text-primary transition-colors">Послуги</a>
+        <a href="about.html" data-nav-link data-i18n="nav.about" class="block py-2 text-body hover:text-primary transition-colors">Про нас</a>
+        <a href="gallery.html" data-nav-link data-i18n="nav.gallery" class="block py-2 text-body hover:text-primary transition-colors">Галерея</a>
+        <a href="contact.html" data-nav-link data-i18n="nav.contact" class="block py-2 text-body hover:text-primary transition-colors">Контакти</a>
+        <div class="flex items-center gap-2 pt-2">
+          <button data-lang-switch="uk" class="px-3 py-1 rounded text-sm font-bold text-primary">UA</button>
+          <span class="text-body-muted">|</span>
+          <button data-lang-switch="en" class="px-3 py-1 rounded text-sm opacity-60">EN</button>
+        </div>
+        <a href="contact.html" class="btn-primary text-sm block text-center mt-2" data-i18n="nav.appointment">Записатися</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="bg-gradient-to-r from-primary-dark to-primary py-20">
+    <div class="container-custom text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4" data-i18n="services_page.page_title">Наші послуги</h1>
+      <p class="text-white/70 text-lg max-w-2xl mx-auto" data-i18n="services_page.page_subtitle">Повний спектр реабілітаційних послуг для вашого відновлення</p>
+    </div>
+  </section>
+
+  <!-- Services Detail -->
+  <section class="section-padding bg-bg">
+    <div class="container-custom space-y-20">
+
+      <!-- Physiotherapy -->
+      <div id="physiotherapy" class="flex flex-col md:flex-row gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-primary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.physiotherapy.title">Фізіотерапія</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.physiotherapy.description">Фізіотерапія — це основа реабілітаційного процесу, яка допомагає відновити рухові функції, зменшити біль та покращити якість життя.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.physiotherapy.features.f1">Індивідуальні програми вправ</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.physiotherapy.features.f2">Відновлення після травм та операцій</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.physiotherapy.features.f3">Лікування хронічного болю</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.physiotherapy.features.f4">Покращення рухливості суглобів</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Massage (reversed) -->
+      <div id="massage" class="flex flex-col md:flex-row-reverse gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-secondary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.massage.title">Лікувальний масаж</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.massage.description">Професійний лікувальний масаж допомагає зняти м'язову напругу, покращити кровообіг та прискорити процес відновлення.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.massage.features.f1">Класичний лікувальний масаж</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.massage.features.f2">Спортивний масаж</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.massage.features.f3">Лімфодренажний масаж</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.massage.features.f4">Масаж при захворюваннях хребта</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Kinesiotherapy -->
+      <div id="kinesio" class="flex flex-col md:flex-row gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-primary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.kinesio.title">Кінезіотерапія</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.kinesio.description">Кінезіотерапія — лікування рухом. Це метод реабілітації, який використовує спеціально підібрані фізичні вправи для відновлення функцій організму.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.kinesio.features.f1">Функціональне тренування</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.kinesio.features.f2">PNF-терапія</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.kinesio.features.f3">Бобат-терапія</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.kinesio.features.f4">Реабілітація при ДЦП</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Electrotherapy (reversed) -->
+      <div id="electro" class="flex flex-col md:flex-row-reverse gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-secondary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.electro.title">Електротерапія</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.electro.description">Електротерапія використовує електричні імпульси різної частоти та інтенсивності для лікування болю, стимуляції м'язів та прискорення процесів відновлення.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.electro.features.f1">TENS-терапія (знеболення)</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.electro.features.f2">Електростимуляція м'язів</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.electro.features.f3">Ультразвукова терапія</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.electro.features.f4">Магнітотерапія</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Spine Rehabilitation -->
+      <div id="spine" class="flex flex-col md:flex-row gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-primary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4v1m0 4v1m0 4v1m0 4v1m-4-14h8m-6 4h4m-6 4h8m-6 4h4"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.spine.title">Реабілітація хребта</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.spine.description">Комплексна програма реабілітації хребта включає діагностику, лікування та профілактику захворювань опорно-рухового апарату.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.spine.features.f1">Лікування грижі міжхребцевих дисків</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.spine.features.f2">Корекція порушень постави</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.spine.features.f3">Реабілітація після операцій на хребті</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.spine.features.f4">Профілактика захворювань хребта</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sports Rehabilitation (reversed) -->
+      <div id="sport" class="flex flex-col md:flex-row-reverse gap-10 items-center fade-in-up">
+        <div class="md:w-1/2">
+          <div class="bg-secondary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-24 h-24 text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 21h18M9 8h6m-3-3v6m-6 4l3-4 3 4 3-4 3 4"/></svg>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold text-body mb-4" data-i18n="services_page.sport.title">Спортивна реабілітація</h2>
+          <p class="text-body-light mb-6" data-i18n="services_page.sport.description">Спортивна реабілітація спрямована на швидке та безпечне повернення спортсменів до тренувань та змагань після травм.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.sport.features.f1">Реабілітація після травм зв'язок</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.sport.features.f2">Відновлення після переломів</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.sport.features.f3">Повернення до спорту програми</span></li>
+            <li class="flex items-center gap-3"><svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-body-light" data-i18n="services_page.sport.features.f4">Профілактика спортивних травм</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section-padding bg-primary">
+    <div class="container-custom text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4" data-i18n="services_page.cta_title">Потрібна консультація?</h2>
+      <p class="text-white/70 text-lg mb-8 max-w-2xl mx-auto" data-i18n="services_page.cta_text">Зв'яжіться з нами для безкоштовної консультації та підбору оптимальної програми реабілітації.</p>
+      <a href="contact.html" class="bg-secondary hover:bg-secondary-light text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block" data-i18n="services_page.cta_button">Записатися на консультацію</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-body text-white py-16">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <img src="images/logo/logo.svg" alt="SEMIMED" class="h-10 w-auto mb-4 brightness-200">
+          <p class="text-white/60 text-sm" data-i18n="footer.description">Центр реабілітації SEMIMED — сучасні методи відновлення здоров'я та індивідуальний підхід до кожного пацієнта.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.quick_links">Швидкі посилання</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.home">Головна</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.services">Послуги</a></li>
+            <li><a href="about.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.about">Про нас</a></li>
+            <li><a href="gallery.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.gallery">Галерея</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.contact">Контакти</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.services_title">Послуги</h4>
+          <ul class="space-y-2">
+            <li><a href="services.html#physiotherapy" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.physiotherapy.title">Фізіотерапія</a></li>
+            <li><a href="services.html#massage" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.massage.title">Лікувальний масаж</a></li>
+            <li><a href="services.html#kinesio" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.kinesio.title">Кінезіотерапія</a></li>
+            <li><a href="services.html#electro" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.electro.title">Електротерапія</a></li>
+            <li><a href="services.html#spine" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.spine.title">Реабілітація хребта</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.contact_title">Контакти</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.address">м. Кам'янець-Подільський, вул. Зарванська, 20</span></li>
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.phone">+380 (67) 123-45-67</span></li>
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.email">info@semimed.com.ua</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 mt-12 pt-8 text-center">
+        <p class="text-white/40 text-sm">&copy; 2024 SEMIMED. <span data-i18n="footer.rights">Всі права захищено.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

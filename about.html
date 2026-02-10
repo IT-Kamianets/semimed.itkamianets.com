@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Про центр реабілітації SEMIMED — наша історія, місія, команда досвідчених фахівців та підхід до реабілітації.">
+  <meta name="base-path" content=".">
+  <meta property="og:title" content="Про нас — SEMIMED">
+  <meta property="og:description" content="Дізнайтеся більше про нашу місію, команду та підхід до реабілітації.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://semimed.itkamianets.com/about.html">
+  <title>Про нас — SEMIMED</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo/logo.svg">
+</head>
+<body class="antialiased">
+
+  <!-- HEADER -->
+  <header id="header" class="sticky top-0 z-40 bg-white transition-all duration-300">
+    <div class="container-custom">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="images/logo/logo.svg" alt="SEMIMED" class="h-10 w-auto">
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" data-nav-link data-i18n="nav.home" class="text-body hover:text-primary transition-colors">Головна</a>
+          <a href="services.html" data-nav-link data-i18n="nav.services" class="text-body hover:text-primary transition-colors">Послуги</a>
+          <a href="about.html" data-nav-link data-i18n="nav.about" class="text-body hover:text-primary transition-colors">Про нас</a>
+          <a href="gallery.html" data-nav-link data-i18n="nav.gallery" class="text-body hover:text-primary transition-colors">Галерея</a>
+          <a href="contact.html" data-nav-link data-i18n="nav.contact" class="text-body hover:text-primary transition-colors">Контакти</a>
+        </nav>
+        <div class="hidden lg:flex items-center gap-4">
+          <div class="flex items-center gap-1 text-sm">
+            <button data-lang-switch="uk" class="px-2 py-1 rounded font-bold text-primary transition-colors hover:text-primary-light">UA</button>
+            <span class="text-body-muted">|</span>
+            <button data-lang-switch="en" class="px-2 py-1 rounded opacity-60 transition-colors hover:text-primary-light">EN</button>
+          </div>
+          <a href="contact.html" class="btn-primary text-sm" data-i18n="nav.appointment">Записатися</a>
+        </div>
+        <button id="mobile-menu-toggle" class="lg:hidden p-2 text-body" aria-label="Menu" aria-expanded="false">
+          <svg class="hamburger-icon w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg class="close-icon w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-border">
+      <div class="container-custom py-4 space-y-3">
+        <a href="index.html" data-nav-link data-i18n="nav.home" class="block py-2 text-body hover:text-primary transition-colors">Головна</a>
+        <a href="services.html" data-nav-link data-i18n="nav.services" class="block py-2 text-body hover:text-primary transition-colors">Послуги</a>
+        <a href="about.html" data-nav-link data-i18n="nav.about" class="block py-2 text-body hover:text-primary transition-colors">Про нас</a>
+        <a href="gallery.html" data-nav-link data-i18n="nav.gallery" class="block py-2 text-body hover:text-primary transition-colors">Галерея</a>
+        <a href="contact.html" data-nav-link data-i18n="nav.contact" class="block py-2 text-body hover:text-primary transition-colors">Контакти</a>
+        <div class="flex items-center gap-2 pt-2">
+          <button data-lang-switch="uk" class="px-3 py-1 rounded text-sm font-bold text-primary">UA</button>
+          <span class="text-body-muted">|</span>
+          <button data-lang-switch="en" class="px-3 py-1 rounded text-sm opacity-60">EN</button>
+        </div>
+        <a href="contact.html" class="btn-primary text-sm block text-center mt-2" data-i18n="nav.appointment">Записатися</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="bg-gradient-to-r from-primary-dark to-primary py-20">
+    <div class="container-custom text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4" data-i18n="about.page_title">Про центр реабілітації SEMIMED</h1>
+      <p class="text-white/70 text-lg max-w-2xl mx-auto" data-i18n="about.page_subtitle">Дізнайтеся більше про нашу місію, команду та підхід до реабілітації</p>
+    </div>
+  </section>
+
+  <!-- History -->
+  <section class="section-padding bg-bg">
+    <div class="container-custom">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-in-left">
+          <h2 class="text-3xl font-bold text-body mb-6" data-i18n="about.history_title">Наша історія</h2>
+          <p class="text-body-light mb-4" data-i18n="about.history_p1">Центр реабілітації SEMIMED був заснований з метою надання якісної реабілітаційної допомоги жителям нашого міста та регіону. З самого початку ми поставили перед собою амбітну мету — створити центр, який поєднує найкращі світові практики реабілітації з індивідуальним підходом.</p>
+          <p class="text-body-light" data-i18n="about.history_p2">Сьогодні SEMIMED — це сучасний реабілітаційний центр, оснащений передовим обладнанням, де працює команда висококваліфікованих фахівців з багаторічним досвідом роботи.</p>
+        </div>
+        <div class="fade-in-right">
+          <div class="bg-primary/10 rounded-2xl aspect-video flex items-center justify-center">
+            <svg class="w-32 h-32 text-primary/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Approach -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <!-- Mission -->
+      <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up">
+        <h2 class="text-3xl font-bold text-body mb-6" data-i18n="about.mission_title">Наша місія</h2>
+        <p class="text-body-light text-xl italic border-l-4 border-primary pl-6 text-left" data-i18n="about.mission_text">Допомогти кожному пацієнту повернутися до повноцінного активного життя, використовуючи найсучасніші методи реабілітації та індивідуальний підхід.</p>
+      </div>
+
+      <!-- Approach -->
+      <h2 class="text-3xl font-bold text-body mb-8 text-center fade-in-up" data-i18n="about.approach_title">Наш підхід</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card fade-in-up" data-delay="100">
+          <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-body mb-2" data-i18n="about.approach_items.individual.title">Індивідуальний підхід</h3>
+          <p class="text-body-light" data-i18n="about.approach_items.individual.text">Кожен пацієнт отримує персональну програму реабілітації, розроблену з урахуванням його стану, потреб та цілей.</p>
+        </div>
+        <div class="card fade-in-up" data-delay="200">
+          <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-body mb-2" data-i18n="about.approach_items.evidence.title">Доказова медицина</h3>
+          <p class="text-body-light" data-i18n="about.approach_items.evidence.text">Ми використовуємо лише методики, ефективність яких підтверджена науковими дослідженнями та клінічною практикою.</p>
+        </div>
+        <div class="card fade-in-up" data-delay="300">
+          <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-body mb-2" data-i18n="about.approach_items.comprehensive.title">Комплексність</h3>
+          <p class="text-body-light" data-i18n="about.approach_items.comprehensive.text">Поєднання різних методів реабілітації дозволяє досягти максимального результату в найкоротші терміни.</p>
+        </div>
+        <div class="card fade-in-up" data-delay="400">
+          <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-body mb-2" data-i18n="about.approach_items.modern.title">Сучасне обладнання</h3>
+          <p class="text-body-light" data-i18n="about.approach_items.modern.text">Наш центр оснащений найсучаснішим реабілітаційним обладнанням провідних світових виробників.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section-padding bg-bg-alt">
+    <div class="container-custom">
+      <div class="text-center mb-12 fade-in-up">
+        <h2 class="text-3xl md:text-4xl font-bold text-body mb-4" data-i18n="about.team_title">Наша команда</h2>
+        <p class="text-body-light text-lg" data-i18n="about.team_subtitle">Досвідчені фахівці, які дбають про ваше здоров'я</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Member 1 -->
+        <div class="card text-center fade-in-up" data-delay="100">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member1.name">Олена Семенова</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member1.position">Головний лікар-реабілітолог</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member1.bio">Понад 15 років досвіду в реабілітаційній медицині. Спеціалізація — відновлення після травм опорно-рухового апарату.</p>
+        </div>
+        <!-- Member 2 -->
+        <div class="card text-center fade-in-up" data-delay="200">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member2.name">Андрій Коваленко</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member2.position">Фізіотерапевт</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member2.bio">Сертифікований фізіотерапевт з 10-річним досвідом. Спеціалізація — спортивна реабілітація та кінезіотерапія.</p>
+        </div>
+        <!-- Member 3 -->
+        <div class="card text-center fade-in-up" data-delay="300">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member3.name">Марія Петренко</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member3.position">Масажист-реабілітолог</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member3.bio">Кваліфікований спеціаліст з лікувального масажу. Досвід роботи понад 8 років у провідних клініках.</p>
+        </div>
+        <!-- Member 4 -->
+        <div class="card text-center fade-in-up" data-delay="100">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member4.name">Ігор Шевченко</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member4.position">Кінезіотерапевт</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member4.bio">Фахівець з кінезіотерапії та функціонального тренування. Спеціалізація — реабілітація хребта.</p>
+        </div>
+        <!-- Member 5 -->
+        <div class="card text-center fade-in-up" data-delay="200">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member5.name">Наталія Бондаренко</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member5.position">Лікар-невролог</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member5.bio">Досвідчений невролог з 12-річним стажем. Спеціалізація — реабілітація після інсультів та неврологічних захворювань.</p>
+        </div>
+        <!-- Member 6 -->
+        <div class="card text-center fade-in-up" data-delay="300">
+          <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-12 h-12 text-primary/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-body" data-i18n="about.team.member6.name">Олександр Мельник</h3>
+          <p class="text-primary text-sm font-semibold mb-3" data-i18n="about.team.member6.position">Фахівець з електротерапії</p>
+          <p class="text-body-light text-sm" data-i18n="about.team.member6.bio">Спеціаліст з апаратних методів реабілітації. Сертифікований у використанні сучасного фізіотерапевтичного обладнання.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-body text-white py-16">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <img src="images/logo/logo.svg" alt="SEMIMED" class="h-10 w-auto mb-4 brightness-200">
+          <p class="text-white/60 text-sm" data-i18n="footer.description">Центр реабілітації SEMIMED — сучасні методи відновлення здоров'я та індивідуальний підхід до кожного пацієнта.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.quick_links">Швидкі посилання</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.home">Головна</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.services">Послуги</a></li>
+            <li><a href="about.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.about">Про нас</a></li>
+            <li><a href="gallery.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.gallery">Галерея</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="nav.contact">Контакти</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.services_title">Послуги</h4>
+          <ul class="space-y-2">
+            <li><a href="services.html#physiotherapy" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.physiotherapy.title">Фізіотерапія</a></li>
+            <li><a href="services.html#massage" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.massage.title">Лікувальний масаж</a></li>
+            <li><a href="services.html#kinesio" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.kinesio.title">Кінезіотерапія</a></li>
+            <li><a href="services.html#electro" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.electro.title">Електротерапія</a></li>
+            <li><a href="services.html#spine" class="text-white/60 hover:text-white transition-colors text-sm" data-i18n="services.spine.title">Реабілітація хребта</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4" data-i18n="footer.contact_title">Контакти</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.address">м. Кам'янець-Подільський, вул. Зарванська, 20</span></li>
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.phone">+380 (67) 123-45-67</span></li>
+            <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><span class="text-white/60 text-sm" data-i18n="contact.email">info@semimed.com.ua</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 mt-12 pt-8 text-center">
+        <p class="text-white/40 text-sm">&copy; 2024 SEMIMED. <span data-i18n="footer.rights">Всі права захищено.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

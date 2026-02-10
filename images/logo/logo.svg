@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <g>
+    <!-- Medical cross symbol -->
+    <rect x="4" y="14" width="22" height="22" rx="4" fill="#0B7A75"/>
+    <rect x="11" y="18" width="8" height="14" rx="1" fill="white"/>
+    <rect x="8" y="21" width="14" height="8" rx="1" fill="white"/>
+    <!-- Heartbeat line -->
+    <path d="M2 36 L8 36 L11 30 L15 42 L19 33 L22 36 L28 36" stroke="#D4A843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Text -->
+  <text x="36" y="22" font-family="Raleway, sans-serif" font-weight="700" font-size="18" fill="#0B7A75">SEMI</text>
+  <text x="84" y="22" font-family="Raleway, sans-serif" font-weight="700" font-size="18" fill="#D4A843">MED</text>
+  <text x="36" y="38" font-family="Open Sans, sans-serif" font-weight="400" font-size="8" letter-spacing="2" fill="#555B6E">РЕАБІЛІТАЦІЯ</text>
+</svg>
