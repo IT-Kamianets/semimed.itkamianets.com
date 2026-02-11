@@ -1,5 +1,5 @@
 /**
- * Navigation — mobile menu toggle, sticky header, smooth scroll
+ * Navigation — mobile menu toggle, glassmorphism sticky header, smooth scroll
  */
 const Navigation = (() => {
   let header, mobileToggle, mobileMenu, navLinks;
@@ -8,15 +8,13 @@ const Navigation = (() => {
     header = document.getElementById('header');
     if (!header) return;
 
-    let lastScroll = 0;
     window.addEventListener('scroll', () => {
       const currentScroll = window.pageYOffset;
       if (currentScroll > 50) {
-        header.classList.add('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
+        header.classList.add('header-scrolled');
       } else {
-        header.classList.remove('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
+        header.classList.remove('header-scrolled');
       }
-      lastScroll = currentScroll;
     }, { passive: true });
   }
 
@@ -87,7 +85,7 @@ const Navigation = (() => {
     document.querySelectorAll('[data-nav-link]').forEach(link => {
       const href = link.getAttribute('href');
       if (href === currentPage || (currentPage === '' && href === 'index.html')) {
-        link.classList.add('text-primary', 'font-semibold');
+        link.classList.add('active');
       }
     });
   }

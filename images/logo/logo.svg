@@ -1,14 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
-  <g>
-    <!-- Medical cross symbol -->
-    <rect x="4" y="14" width="22" height="22" rx="4" fill="#0B7A75"/>
-    <rect x="11" y="18" width="8" height="14" rx="1" fill="white"/>
-    <rect x="8" y="21" width="14" height="8" rx="1" fill="white"/>
-    <!-- Heartbeat line -->
-    <path d="M2 36 L8 36 L11 30 L15 42 L19 33 L22 36 L28 36" stroke="#D4A843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 58" fill="none">
+  <!-- Main oval - tighter around content -->
+  <ellipse cx="95" cy="22" rx="88" ry="21" stroke="#0B7A75" stroke-width="2.5" fill="none"/>
+
+  <!-- (S) symbol on the left -->
+  <g transform="translate(34, 22)">
+    <!-- Left bracket -->
+    <path d="M-5,-13 C-16,-6 -16,6 -5,13" stroke="#0B7A75" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <!-- Right bracket -->
+    <path d="M5,-13 C16,-6 16,6 5,13" stroke="#0B7A75" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <!-- S shape -->
+    <path d="M4,-12 C-2,-13 -9,-10 -9,-5.5 C-9,-0.5 1,0 1,0 C1,0 9,0.5 9,5.5 C9,10 2,12 -4,12" stroke="#0B7A75" stroke-width="3" stroke-linecap="round" fill="none"/>
   </g>
-  <!-- Text -->
-  <text x="36" y="22" font-family="Raleway, sans-serif" font-weight="700" font-size="18" fill="#0B7A75">SEMI</text>
-  <text x="84" y="22" font-family="Raleway, sans-serif" font-weight="700" font-size="18" fill="#D4A843">MED</text>
-  <text x="36" y="38" font-family="Open Sans, sans-serif" font-weight="400" font-size="8" letter-spacing="2" fill="#555B6E">РЕАБІЛІТАЦІЯ</text>
+
+  <!-- SEMIMED text inside oval, right side -->
+  <text x="118" y="27" font-family="Raleway, Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="2" fill="#0B7A75" text-anchor="middle">SEMIMED</text>
+
+  <!-- Subtext below oval -->
+  <text x="95" y="55" font-family="Open Sans, Arial, sans-serif" font-weight="700" font-size="7" letter-spacing="2" fill="#0B7A75" text-anchor="middle">РЕАБІЛІТАЦІЙНИЙ ЦЕНТР</text>
 </svg>

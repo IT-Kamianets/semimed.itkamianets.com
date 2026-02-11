@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:\\\\Users\\\\Andrey\\\\Desktop\\\\semimed.itkamianets.com\\\\images\"\" 2>/dev/null || dir \"C:UsersAndreyDesktopsemimed.itkamianets.comimages\" /s /b 2>/dev/null || find \"C:UsersAndreyDesktopsemimed.itkamianets.comimages\" -type f 2>/dev/null || echo \"checking images dir \")"
+    ]
+  }
+}

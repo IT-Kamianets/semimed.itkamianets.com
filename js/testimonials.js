@@ -1,5 +1,5 @@
 /**
- * Testimonials Carousel — auto-advance, dots, arrows, touch swipe, reduced motion support
+ * Testimonials Carousel — pill dots, auto-advance, arrows, touch swipe
  */
 const Testimonials = (() => {
   let container, track, slides, dots, prevBtn, nextBtn;
@@ -33,8 +33,13 @@ const Testimonials = (() => {
   function updateDots() {
     if (!dots) return;
     dots.forEach((dot, i) => {
-      dot.classList.toggle('bg-primary', i === currentIndex);
-      dot.classList.toggle('bg-border', i !== currentIndex);
+      if (i === currentIndex) {
+        dot.classList.add('bg-primary', 'w-8');
+        dot.classList.remove('bg-border', 'w-2');
+      } else {
+        dot.classList.remove('bg-primary', 'w-8');
+        dot.classList.add('bg-border', 'w-2');
+      }
       dot.setAttribute('aria-current', i === currentIndex ? 'true' : 'false');
     });
   }

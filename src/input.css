@@ -12,26 +12,65 @@
 }
 
 @layer components {
+  /* Buttons — pill shape with glow */
   .btn-primary {
-    @apply bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-light transition-colors font-semibold inline-block;
+    @apply bg-primary text-white px-7 py-3 rounded-full hover:bg-primary-light hover:shadow-glow transition-all duration-300 font-semibold inline-block active:scale-95;
   }
   .btn-outline {
-    @apply border-2 border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition-colors font-semibold inline-block;
+    @apply border-2 border-primary text-primary px-7 py-3 rounded-full hover:bg-primary hover:text-white hover:shadow-glow transition-all duration-300 font-semibold inline-block active:scale-95;
   }
   .btn-secondary {
-    @apply bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary-light transition-colors font-semibold inline-block;
+    @apply bg-secondary text-white px-7 py-3 rounded-full hover:bg-secondary-light transition-all duration-300 font-semibold inline-block active:scale-95;
   }
+
+  /* Layout */
   .section-padding {
     @apply py-16 md:py-24 px-4;
   }
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
-  .input-field {
-    @apply w-full px-4 py-3 border border-border rounded-lg bg-white text-body focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all;
-  }
+
+  /* Cards — thin border, hover lift */
   .card {
-    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-6;
+    @apply bg-white rounded-2xl shadow-card border border-border/50 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover;
+  }
+
+  /* Glass card */
+  .card-glass {
+    @apply bg-white/70 backdrop-blur-md rounded-2xl border border-white/20 shadow-soft p-6;
+  }
+
+  /* Section badge pill */
+  .section-badge {
+    @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-4;
+  }
+
+  /* Section gradient divider */
+  .section-divider {
+    @apply w-16 h-1 rounded-full bg-gradient-to-r from-primary to-primary-light mx-auto mb-6;
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent;
+  }
+
+  /* Page banner for inner pages */
+  .page-banner {
+    @apply relative py-24 md:py-32 overflow-hidden;
+    background: linear-gradient(135deg, #065A57 0%, #0B7A75 50%, #14A89E 100%);
+  }
+  .page-banner::before {
+    content: '';
+    @apply absolute inset-0 opacity-10;
+    background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.3) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 50%, rgba(255,255,255,0.2) 0%, transparent 50%);
+  }
+
+  /* Form */
+  .input-field {
+    @apply w-full px-4 py-3 border border-border rounded-xl bg-white text-body focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all duration-300;
   }
 
   /* Lightbox */
@@ -69,5 +108,36 @@
   }
   .fade-in-right.visible {
     @apply opacity-100 translate-x-0;
+  }
+  .scale-in {
+    @apply opacity-0 scale-90 transition-all duration-500 ease-out;
+  }
+  .scale-in.visible {
+    @apply opacity-100 scale-100;
+  }
+
+  /* Nav link hover underline */
+  .nav-link {
+    @apply relative text-body-light hover:text-primary transition-colors font-medium;
+  }
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary rounded-full transition-all duration-300;
+  }
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  .nav-link.active {
+    @apply text-primary font-semibold;
+  }
+  .nav-link.active::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
   }
 }

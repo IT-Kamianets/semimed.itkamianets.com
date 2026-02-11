@@ -1,16 +1,41 @@
 /**
- * Scroll-triggered fade-in animations using IntersectionObserver
+ * Scroll-triggered animations + counter animation
+ * Supports fade-in-up, fade-in-left, fade-in-right, scale-in
  * Respects prefers-reduced-motion
  */
 const Animations = (() => {
+  function animateCounter(el) {
+    const target = parseInt(el.getAttribute('data-count'), 10);
+    if (isNaN(target)) return;
+    const duration = 2000;
+    const start = performance.now();
+    const suffix = el.getAttribute('data-count-suffix') || '';
+
+    function update(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.floor(eased * target) + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+    }
+
+    requestAnimationFrame(update);
+  }
+
   function init() {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right');
+    const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right, .scale-in');
+    const counterElements = document.querySelectorAll('[data-count]');
 
     if (prefersReducedMotion) {
-      // Make all elements visible immediately
       animatedElements.forEach(el => el.classList.add('visible'));
+      counterElements.forEach(el => {
+        const target = el.getAttribute('data-count') || '0';
+        const suffix = el.getAttribute('data-count-suffix') || '';
+        el.textContent = target + suffix;
+      });
       return;
     }
 
@@ -35,6 +60,20 @@ const Animations = (() => {
     });
 
     animatedElements.forEach(el => observer.observe(el));
+
+    // Counter observer
+    if (counterElements.length > 0) {
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+
+      counterElements.forEach(el => counterObserver.observe(el));
+    }
   }
 
   return { init };
