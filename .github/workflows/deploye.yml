@@ -4,7 +4,6 @@ on:
     push:
         branches:
             - master
-    workflow_dispatch:
 
 jobs:
     deploy:
@@ -12,10 +11,10 @@ jobs:
 
         steps:
             - name: Checkout repository
-              uses: actions/checkout@v4
+              uses: actions/checkout@v3
 
             - name: Install Node.js
-              uses: actions/setup-node@v4
+              uses: actions/setup-node@v3
               with:
                   node-version: '20'
 
@@ -27,11 +26,8 @@ jobs:
 
             - name: Prepare deploy directory
               run: |
-                  # Створюємо тимчасову папку для збірки
                   mkdir -p deploy/dist
-                  # Копіюємо всі необхідні статичні файли
                   cp -r *.html robots.txt sitemap.xml CNAME images js lang deploy/
-                  # Копіюємо згенерований CSS
                   cp dist/output.css deploy/dist/
 
             - name: Set up SSH
