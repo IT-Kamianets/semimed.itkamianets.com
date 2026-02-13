@@ -3,7 +3,6 @@
     "home": "Home",
     "services": "Services",
     "about": "About",
-    "gallery": "Gallery",
     "contact": "Contact",
     "appointment": "Book Now"
   },
@@ -185,15 +184,6 @@
       "service_required": "Please select a service"
     }
   },
-  "gallery": {
-    "page_title": "Gallery",
-    "page_subtitle": "Explore our center, equipment, and team",
-    "filter_all": "All",
-    "filter_center": "Center",
-    "filter_equipment": "Equipment",
-    "filter_team": "Team",
-    "filter_results": "Results"
-  },
   "contact": {
     "page_title": "Contact Us",
     "page_subtitle": "We are always happy to answer your questions and help with appointment booking",
@@ -206,8 +196,8 @@
     "email_label": "Email",
     "email": "semimedrehub@gmail.com",
     "hours_label": "Working Hours",
-    "hours_weekdays": "Mon-Fri: 8:00 AM - 8:00 PM",
-    "hours_saturday": "Sat: 9:00 AM - 3:00 PM",
+    "hours_weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "hours_saturday": "Sat: 9:00 AM - 2:00 PM",
     "hours_sunday": "Sun: Closed",
     "map_title": "How to Find Us"
   },

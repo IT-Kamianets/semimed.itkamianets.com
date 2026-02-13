@@ -3,7 +3,6 @@
     "home": "Головна",
     "services": "Послуги",
     "about": "Про нас",
-    "gallery": "Галерея",
     "contact": "Контакти",
     "appointment": "Записатися"
   },
@@ -185,15 +184,6 @@
       "service_required": "Будь ласка, оберіть послугу"
     }
   },
-  "gallery": {
-    "page_title": "Галерея",
-    "page_subtitle": "Ознайомтеся з нашим центром, обладнанням та командою",
-    "filter_all": "Всі",
-    "filter_center": "Центр",
-    "filter_equipment": "Обладнання",
-    "filter_team": "Команда",
-    "filter_results": "Результати"
-  },
   "contact": {
     "page_title": "Зв'яжіться з нами",
     "page_subtitle": "Ми завжди раді відповісти на ваші запитання та допомогти з записом на прийом",
@@ -206,8 +196,8 @@
     "email_label": "Email",
     "email": "semimedrehub@gmail.com",
     "hours_label": "Графік роботи",
-    "hours_weekdays": "Пн-Пт: 8:00 - 20:00",
-    "hours_saturday": "Сб: 9:00 - 15:00",
+    "hours_weekdays": "Пн-Пт: 9:00 - 18:00",
+    "hours_saturday": "Сб: 9:00 - 14:00",
     "hours_sunday": "Нд: Вихідний",
     "map_title": "Як нас знайти"
   },

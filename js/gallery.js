@@ -17,12 +17,8 @@ const Gallery = (() => {
         const filter = btn.getAttribute('data-filter');
 
         // Update active button
-        filterBtns.forEach(b => {
-          b.classList.remove('bg-primary', 'text-white');
-          b.classList.add('bg-white', 'text-body');
-        });
-        btn.classList.add('bg-primary', 'text-white');
-        btn.classList.remove('bg-white', 'text-body');
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
 
         // Filter items
         galleryItems.forEach(item => {
