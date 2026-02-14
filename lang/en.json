@@ -17,11 +17,16 @@
     "cta_secondary": "Learn More"
   },
   "services": {
-    "section_title": "Our Services",
-    "section_subtitle": "A comprehensive approach to rehabilitation using modern techniques and equipment",
-    "physiotherapy": {
-      "title": "Physiotherapy",
-      "description": "Restoring motor functions through specialized exercises and techniques under the supervision of experienced professionals"
+    "badge": "Services",
+    "section_title": "A Comprehensive Approach to Your Health",
+    "section_subtitle": "We use modern techniques and equipment to achieve the best results",
+    "neurorehab": {
+      "title": "Neurorehabilitation",
+      "description": "Recovery after strokes, traumatic brain injuries, and neurological disorders"
+    },
+    "trauma_rehab": {
+      "title": "Trauma Rehabilitation",
+      "description": "Comprehensive recovery after fractures, sprains, and surgical interventions"
     },
     "massage": {
       "title": "Therapeutic Massage",
@@ -29,19 +34,15 @@
     },
     "kinesio": {
       "title": "Kinesiotherapy",
-      "description": "Treatment through movement — individually designed exercise programs for recovery after injuries and surgeries"
+      "description": "Treatment through movement — individually designed exercise programs for recovery"
     },
-    "electro": {
-      "title": "Electrotherapy",
-      "description": "Modern hardware treatment methods using electrical impulses for pain relief and recovery"
+    "manual_therapy": {
+      "title": "Manual Therapy",
+      "description": "Hands-on techniques for restoring joint mobility and releasing muscle blocks"
     },
-    "spine": {
-      "title": "Spine Rehabilitation",
-      "description": "Comprehensive programs for treatment and prevention of spinal and musculoskeletal disorders"
-    },
-    "sport": {
-      "title": "Sports Rehabilitation",
-      "description": "Quick return to active life and sports after injuries using advanced techniques"
+    "lfk": {
+      "title": "Therapeutic Exercise",
+      "description": "Physical therapy exercises for body strengthening and disease prevention"
     },
     "view_all": "View All Services",
     "learn_more": "Learn More"
@@ -177,6 +178,10 @@
     "date": "Preferred Date",
     "message": "Message",
     "message_placeholder": "Describe your problem or preferences",
+    "advantages_title": "Our Advantages:",
+    "adv1": "Individual Programs",
+    "adv2": "Modern Equipment",
+    "adv3": "Experienced Specialists",
     "submit": "Submit Request",
     "success": "Thank you! Your request has been received. We will contact you shortly.",
     "error": "An error occurred. Please try again or call us.",
@@ -212,7 +217,12 @@
     "contact_title": "Contact",
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "license": "License of the Ministry of Health of Ukraine No. 904 dated 30.05.2025 \"On Licensing of Medical Practice\""
+    "license": "License of the Ministry of Health of Ukraine No. 904 dated 30.05.2025 \"On Licensing of Medical Practice\"",
+    "s1": "Neurorehabilitation",
+    "s2": "Trauma Rehabilitation",
+    "s3": "Therapeutic Massage",
+    "s4": "Kinesiotherapy",
+    "s5": "Manual Therapy"
   },
   "404": {
     "title": "Page Not Found",
@@ -281,6 +291,33 @@
         "f3": "Return to sport programs",
         "f4": "Sports injury prevention"
       }
+    },
+    "methods_badge": "Our Methods",
+    "methods_title": "Treatment & Rehabilitation Methods",
+    "methods_subtitle": "We use a comprehensive approach and modern techniques for effective recovery",
+    "m": {
+      "neurorehab": { "title": "Neurorehabilitation", "desc": "Recovery after strokes, traumatic brain injuries, and neurological disorders." },
+      "trauma": { "title": "Trauma Rehabilitation", "desc": "Comprehensive recovery after fractures, sprains, and surgical interventions." },
+      "spine": { "title": "Spine Rehabilitation", "desc": "Treatment and prevention of spinal and musculoskeletal disorders." },
+      "massage": { "title": "Therapeutic Massage", "desc": "Relieving muscle tension, improving blood circulation, and accelerating recovery." },
+      "mechano": { "title": "Mechanotherapy", "desc": "Recovery using specialized exercise machines and mechanical devices." },
+      "evminov": { "title": "Evminov Trainer", "desc": "Spinal traction and back muscle strengthening on a specialized trainer." },
+      "lfk": { "title": "Therapeutic Exercise (LFK)", "desc": "Physical therapy exercises for body strengthening and disease prevention." },
+      "kinesio": { "title": "Kinesiotherapy", "desc": "Treatment through movement — individual exercise programs for functional recovery." },
+      "manual": { "title": "Manual Therapy", "desc": "Hands-on techniques for restoring joint mobility and releasing muscle blocks." },
+      "pir": { "title": "Post-Isometric Relaxation (PIR)", "desc": "Gentle muscle stretching to eliminate spasms and restore mobility." }
+    },
+    "conditions_badge": "Specializations",
+    "conditions_title": "Conditions We Treat",
+    "conditions_subtitle": "We help patients with various diagnoses and conditions",
+    "c": {
+      "stroke": "Stroke",
+      "hernia": "Herniated Disc",
+      "scoliosis": "Scoliosis",
+      "osteochondrosis": "Osteochondrosis",
+      "tbi": "Traumatic Brain Injury",
+      "sci": "Spinal Cord Injury",
+      "cp": "Cerebral Palsy"
     },
     "cta_title": "Need a Consultation?",
     "cta_text": "Contact us for a free consultation and selection of the optimal rehabilitation program.",
