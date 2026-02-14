@@ -162,12 +162,16 @@
     "service": "Select Service",
     "service_placeholder": "Choose a service",
     "service_options": {
-      "physiotherapy": "Physiotherapy",
-      "massage": "Therapeutic Massage",
-      "kinesio": "Kinesiotherapy",
-      "electro": "Electrotherapy",
+      "neurorehab": "Neurorehabilitation",
+      "trauma": "Trauma Rehabilitation",
       "spine": "Spine Rehabilitation",
-      "sport": "Sports Rehabilitation",
+      "massage": "Therapeutic Massage",
+      "mechano": "Mechanotherapy",
+      "evminov": "Evminov Trainer",
+      "lfk": "Therapeutic Exercise (LFK)",
+      "kinesio": "Kinesiotherapy",
+      "manual": "Manual Therapy",
+      "pir": "Post-Isometric Relaxation",
       "consultation": "Consultation"
     },
     "date": "Preferred Date",
@@ -207,7 +211,8 @@
     "services_title": "Services",
     "contact_title": "Contact",
     "rights": "All rights reserved.",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "license": "License of the Ministry of Health of Ukraine No. 904 dated 30.05.2025 \"On Licensing of Medical Practice\""
   },
   "404": {
     "title": "Page Not Found",

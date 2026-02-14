@@ -25,7 +25,7 @@
 
   /* Layout */
   .section-padding {
-    @apply py-16 md:py-24 px-4;
+    @apply py-10 md:py-16 px-4;
   }
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
