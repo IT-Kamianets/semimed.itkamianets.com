@@ -1,0 +1,333 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "appointment": "Book Now"
+  },
+  "lang": {
+    "current": "EN",
+    "switch": "UA"
+  },
+  "hero": {
+    "title": "Your Recovery Starts Here",
+    "subtitle": "SEMIMED Rehabilitation Center — modern recovery methods, experienced specialists, and a personalized approach to every patient",
+    "cta_primary": "Book an Appointment",
+    "cta_secondary": "Learn More",
+    "trust1": "Evidence-Based Medicine",
+    "trust2": "Certified Specialists"
+  },
+  "services": {
+    "badge": "Services",
+    "section_title": "A Comprehensive Approach to Your Health",
+    "section_subtitle": "We use modern techniques and equipment to achieve the best results",
+    "neurorehab": {
+      "title": "Neurorehabilitation",
+      "description": "Recovery after strokes, traumatic brain injuries, and neurological disorders"
+    },
+    "trauma_rehab": {
+      "title": "Trauma Rehabilitation",
+      "description": "Comprehensive recovery after fractures, sprains, and surgical interventions"
+    },
+    "massage": {
+      "title": "Therapeutic Massage",
+      "description": "Professional massage for pain relief, improved blood circulation, and restoration of muscle tone"
+    },
+    "kinesio": {
+      "title": "Kinesiotherapy",
+      "description": "Treatment through movement — individually designed exercise programs for recovery"
+    },
+    "manual_therapy": {
+      "title": "Manual Therapy",
+      "description": "Hands-on techniques for restoring joint mobility and releasing muscle blocks"
+    },
+    "lfk": {
+      "title": "Therapeutic Exercise",
+      "description": "Physical therapy exercises for body strengthening and disease prevention"
+    },
+    "view_all": "View All Services",
+    "learn_more": "Learn More"
+  },
+  "about": {
+    "badge": "About Us",
+    "section_title": "About SEMIMED Center",
+    "section_subtitle": "Your reliable partner on the road to recovery",
+    "description": "SEMIMED Rehabilitation Center combines modern technology with an individual approach. Our team of experienced professionals will help you return to a full and active life.",
+    "description2": "We use state-of-the-art equipment and evidence-based rehabilitation techniques to ensure the most effective recovery for every patient.",
+    "learn_more": "Learn More About Us",
+    "feature1_title": "Evidence-Based Methods",
+    "feature1_text": "We use only methods whose effectiveness has been proven by clinical research.",
+    "feature2_title": "Qualified Team",
+    "feature2_text": "Our specialists regularly undergo training and improve their qualifications.",
+    "stats": {
+      "years": "Years of Experience",
+      "patients": "Satisfied Patients",
+      "specialists": "Qualified Specialists",
+      "methods": "Treatment Methods"
+    },
+    "page_title": "About SEMIMED Rehabilitation Center",
+    "page_subtitle": "Learn more about our mission, team, and approach to rehabilitation",
+    "history_title": "Our Story",
+    "history_p1": "SEMIMED Rehabilitation Center was founded with the goal of providing quality rehabilitation care to residents of our city and region. From the very beginning, we set ourselves an ambitious goal — to create a center that combines the best global rehabilitation practices with an individual approach.",
+    "history_p2": "Today, SEMIMED is a modern rehabilitation center equipped with state-of-the-art equipment, where a team of highly qualified specialists with many years of experience works.",
+    "mission_title": "Our Mission",
+    "mission_text": "To help every patient return to a full and active life using the most modern rehabilitation methods and an individual approach.",
+    "approach_title": "Our Approach",
+    "approach_items": {
+      "individual": {
+        "title": "Individual Approach",
+        "text": "Each patient receives a personal rehabilitation program designed with their condition, needs, and goals in mind."
+      },
+      "evidence": {
+        "title": "Evidence-Based Medicine",
+        "text": "We use only techniques whose effectiveness has been confirmed by scientific research and clinical practice."
+      },
+      "comprehensive": {
+        "title": "Comprehensive Care",
+        "text": "Combining different rehabilitation methods allows us to achieve maximum results in the shortest time."
+      },
+      "modern": {
+        "title": "Modern Equipment",
+        "text": "Our center is equipped with state-of-the-art rehabilitation equipment from leading global manufacturers."
+      }
+    },
+    "team_title": "Our Team",
+    "team_subtitle": "Experienced specialists who care about your health",
+    "team": {
+      "member1": {
+        "name": "Olena Semenova",
+        "position": "Chief Rehabilitation Doctor",
+        "bio": "Over 15 years of experience in rehabilitation medicine. Specialization — recovery after musculoskeletal injuries."
+      },
+      "member2": {
+        "name": "Andriy Kovalenko",
+        "position": "Physiotherapist",
+        "bio": "Certified physiotherapist with 10 years of experience. Specialization — sports rehabilitation and kinesiotherapy."
+      },
+      "member3": {
+        "name": "Maria Petrenko",
+        "position": "Massage Therapist-Rehabilitator",
+        "bio": "Qualified therapeutic massage specialist. Over 8 years of experience at leading clinics."
+      },
+      "member4": {
+        "name": "Igor Shevchenko",
+        "position": "Kinesiotherapist",
+        "bio": "Specialist in kinesiotherapy and functional training. Specialization — spine rehabilitation."
+      },
+      "member5": {
+        "name": "Natalia Bondarenko",
+        "position": "Neurologist",
+        "bio": "Experienced neurologist with 12 years of practice. Specialization — rehabilitation after strokes and neurological diseases."
+      },
+      "member6": {
+        "name": "Oleksandr Melnyk",
+        "position": "Electrotherapy Specialist",
+        "bio": "Specialist in hardware rehabilitation methods. Certified in the use of modern physiotherapy equipment."
+      }
+    }
+  },
+  "testimonials": {
+    "section_title": "Patient Reviews",
+    "section_subtitle": "What our patients say about their rehabilitation experience at SEMIMED",
+    "items": {
+      "t1": {
+        "text": "After a knee injury, I thought I would never run again. Thanks to the SEMIMED team, I returned to training in 3 months. Incredibly grateful!",
+        "name": "Oleksiy T.",
+        "role": "Sports Rehabilitation"
+      },
+      "t2": {
+        "text": "Professional approach and attentive attitude to every patient. Therapeutic massage and physiotherapy helped me get rid of chronic back pain.",
+        "name": "Iryna K.",
+        "role": "Spine Rehabilitation"
+      },
+      "t3": {
+        "text": "SEMIMED Center is a place where they truly help. After shoulder surgery, I completed a full rehabilitation course and fully restored mobility.",
+        "name": "Vasyl M.",
+        "role": "Post-Surgical Rehabilitation"
+      },
+      "t4": {
+        "text": "Very satisfied with the results of kinesiotherapy. SEMIMED specialists developed an individual program for me that gave wonderful results.",
+        "name": "Tetiana L.",
+        "role": "Kinesiotherapy"
+      },
+      "t5": {
+        "text": "I recommend SEMIMED to everyone who needs quality rehabilitation. Modern equipment, experienced doctors, and a warm human approach.",
+        "name": "Mykhailo S.",
+        "role": "Physiotherapy"
+      }
+    }
+  },
+  "appointment": {
+    "section_title": "Book an Appointment",
+    "section_subtitle": "Fill out the form and we will contact you to confirm your appointment",
+    "name": "Your Name",
+    "name_placeholder": "Enter your name",
+    "phone": "Phone",
+    "phone_placeholder": "+380 (XX) XXX-XX-XX",
+    "email": "Email",
+    "email_placeholder": "your@email.com",
+    "service": "Select Service",
+    "service_placeholder": "Choose a service",
+    "service_options": {
+      "neurorehab": "Neurorehabilitation",
+      "trauma": "Trauma Rehabilitation",
+      "spine": "Spine Rehabilitation",
+      "massage": "Therapeutic Massage",
+      "mechano": "Mechanotherapy",
+      "evminov": "Evminov Trainer",
+      "lfk": "Therapeutic Exercise (LFK)",
+      "kinesio": "Kinesiotherapy",
+      "manual": "Manual Therapy",
+      "pir": "Post-Isometric Relaxation",
+      "consultation": "Consultation"
+    },
+    "date": "Preferred Date",
+    "message": "Message",
+    "message_placeholder": "Describe your problem or preferences",
+    "advantages_title": "Our Advantages:",
+    "adv1": "Individual Programs",
+    "adv2": "Modern Equipment",
+    "adv3": "Experienced Specialists",
+    "submit": "Submit Request",
+    "success": "Thank you! Your request has been received. We will contact you shortly.",
+    "error": "An error occurred. Please try again or call us.",
+    "validation": {
+      "name_required": "Please enter your name",
+      "phone_required": "Please enter your phone number",
+      "phone_invalid": "Please enter a valid phone number",
+      "email_invalid": "Please enter a valid email address",
+      "service_required": "Please select a service"
+    }
+  },
+  "contact": {
+    "page_title": "Contact Us",
+    "page_subtitle": "We are always happy to answer your questions and help with appointment booking",
+    "form_title": "Write to Us",
+    "info_title": "Contact Information",
+    "address_label": "Address",
+    "address": "44 Pavla Skoropadskoho St., apt. 1, Kamianets-Podilskyi",
+    "phone_label": "Phone",
+    "phone": "+380 98 724 30 40",
+    "email_label": "Email",
+    "email": "semimedrehub@gmail.com",
+    "hours_label": "Working Hours",
+    "hours_weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "hours_saturday": "Sat: 9:00 AM - 2:00 PM",
+    "hours_sunday": "Sun: Closed",
+    "map_title": "How to Find Us"
+  },
+  "footer": {
+    "description": "SEMIMED Rehabilitation Center — modern health recovery methods and an individual approach to every patient.",
+    "quick_links": "Quick Links",
+    "services_title": "Services",
+    "contact_title": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "license": "License of the Ministry of Health of Ukraine No. 904 dated 30.05.2025 \"On Licensing of Medical Practice\"",
+    "s1": "Neurorehabilitation",
+    "s2": "Trauma Rehabilitation",
+    "s3": "Therapeutic Massage",
+    "s4": "Kinesiotherapy",
+    "s5": "Manual Therapy"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "subtitle": "Unfortunately, the page you are looking for does not exist or has been moved.",
+    "home": "Go Home"
+  },
+  "services_page": {
+    "page_title": "Our Services",
+    "page_subtitle": "Full range of rehabilitation services for your recovery",
+    "physiotherapy": {
+      "title": "Physiotherapy",
+      "description": "Physiotherapy is the foundation of the rehabilitation process that helps restore motor functions, reduce pain, and improve quality of life. Our physiotherapists use an individual approach to every patient.",
+      "features": {
+        "f1": "Individual exercise programs",
+        "f2": "Recovery after injuries and surgeries",
+        "f3": "Chronic pain management",
+        "f4": "Joint mobility improvement"
+      }
+    },
+    "massage": {
+      "title": "Therapeutic Massage",
+      "description": "Professional therapeutic massage helps relieve muscle tension, improve blood circulation, and accelerate the recovery process. Our massage therapists have years of experience working with patients of all ages.",
+      "features": {
+        "f1": "Classic therapeutic massage",
+        "f2": "Sports massage",
+        "f3": "Lymphatic drainage massage",
+        "f4": "Massage for spinal conditions"
+      }
+    },
+    "kinesio": {
+      "title": "Kinesiotherapy",
+      "description": "Kinesiotherapy — treatment through movement. This is a rehabilitation method that uses specially selected physical exercises to restore body functions after injuries, surgeries, and diseases.",
+      "features": {
+        "f1": "Functional training",
+        "f2": "PNF therapy",
+        "f3": "Bobath therapy",
+        "f4": "Cerebral palsy rehabilitation"
+      }
+    },
+    "electro": {
+      "title": "Electrotherapy",
+      "description": "Electrotherapy uses electrical impulses of different frequencies and intensities for pain treatment, muscle stimulation, and acceleration of tissue recovery processes.",
+      "features": {
+        "f1": "TENS therapy (pain relief)",
+        "f2": "Electrical muscle stimulation",
+        "f3": "Ultrasound therapy",
+        "f4": "Magnetic therapy"
+      }
+    },
+    "spine": {
+      "title": "Spine Rehabilitation",
+      "description": "Comprehensive spine rehabilitation program includes diagnostics, treatment, and prevention of musculoskeletal disorders using modern methods and equipment.",
+      "features": {
+        "f1": "Herniated disc treatment",
+        "f2": "Posture correction",
+        "f3": "Post-spinal surgery rehabilitation",
+        "f4": "Spinal disease prevention"
+      }
+    },
+    "sport": {
+      "title": "Sports Rehabilitation",
+      "description": "Sports rehabilitation is aimed at the quick and safe return of athletes to training and competition after injuries. We work with athletes at all levels of preparation.",
+      "features": {
+        "f1": "Ligament injury rehabilitation",
+        "f2": "Fracture recovery",
+        "f3": "Return to sport programs",
+        "f4": "Sports injury prevention"
+      }
+    },
+    "methods_badge": "Our Methods",
+    "methods_title": "Treatment & Rehabilitation Methods",
+    "methods_subtitle": "We use a comprehensive approach and modern techniques for effective recovery",
+    "m": {
+      "neurorehab": { "title": "Neurorehabilitation", "desc": "Recovery after strokes, traumatic brain injuries, and neurological disorders.", "detail": "Covers recovery after ischemic and hemorrhagic strokes, traumatic brain injuries, multiple sclerosis, and Parkinson's disease. We apply PNF techniques, balance training, and cognitive rehabilitation." },
+      "trauma": { "title": "Trauma Rehabilitation", "desc": "Comprehensive recovery after fractures, sprains, and surgical interventions.", "detail": "Recovery programs after fractures, ligament and tendon surgeries, and joint replacements. Includes manual therapy, therapeutic exercise, and physiotherapy procedures." },
+      "spine": { "title": "Spine Rehabilitation", "desc": "Treatment and prevention of spinal and musculoskeletal disorders.", "detail": "Comprehensive treatment of herniated discs, scoliosis, osteochondrosis, and spondylosis. We use traction, manual therapy, and targeted exercises to strengthen stabilizing muscles." },
+      "massage": { "title": "Therapeutic Massage", "desc": "Relieving muscle tension, improving blood circulation, and accelerating recovery.", "detail": "Classic therapeutic, sports, lymphatic drainage massage, and massage for spinal conditions. Effectively relieves pain, restores muscle tone, and improves microcirculation." },
+      "mechano": { "title": "Mechanotherapy", "desc": "Recovery using specialized exercise machines and mechanical devices.", "detail": "Restoring joint and muscle mobility and strength using specialized equipment. Used for contractures, after fractures and surgeries to speed up functional recovery." },
+      "evminov": { "title": "Evminov Trainer", "desc": "Spinal traction and back muscle strengthening on a specialized trainer.", "detail": "Therapeutic traction and strengthening of deep back muscles on the Evminov incline board. Effective for hernias, protrusions, scoliosis, and chronic spinal pain." },
+      "lfk": { "title": "Therapeutic Exercise (LFK)", "desc": "Physical therapy exercises for body strengthening and disease prevention.", "detail": "Individually selected exercise complexes for recovery after injuries and surgeries, posture correction, and prevention of musculoskeletal disorders." },
+      "kinesio": { "title": "Kinesiotherapy", "desc": "Treatment through movement — individual exercise programs for functional recovery.", "detail": "Treatment through active and passive movement: Bobath therapy, PNF, functional training. Suitable for recovery after strokes, cerebral palsy, injuries, and musculoskeletal disorders." },
+      "manual": { "title": "Manual Therapy", "desc": "Hands-on techniques for restoring joint mobility and releasing muscle blocks.", "detail": "Soft and firm mobilization techniques for the joints of the spine and limbs. Eliminates joint blocks, restores mobility, and reduces pain without medication." },
+      "pir": { "title": "Post-Isometric Relaxation (PIR)", "desc": "Gentle muscle stretching to eliminate spasms and restore mobility.", "detail": "A technique for gently stretching contracted muscles after their isometric tension. Effectively eliminates muscle spasms, trigger points, and improves joint mobility." }
+    },
+    "conditions_badge": "Specializations",
+    "conditions_title": "Conditions We Treat",
+    "conditions_subtitle": "We help patients with various diagnoses and conditions",
+    "c": {
+      "stroke": "Stroke",
+      "hernia": "Herniated Disc",
+      "scoliosis": "Scoliosis",
+      "osteochondrosis": "Osteochondrosis",
+      "tbi": "Traumatic Brain Injury",
+      "sci": "Spinal Cord Injury",
+      "cp": "Cerebral Palsy"
+    },
+    "cta_title": "Need a Consultation?",
+    "cta_text": "Contact us for a free consultation and selection of the optimal rehabilitation program.",
+    "cta_button": "Book a Consultation"
+  }
+}
