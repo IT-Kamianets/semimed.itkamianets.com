@@ -22,6 +22,9 @@
   .btn-secondary {
     @apply bg-secondary text-white px-7 py-3 rounded-full hover:bg-secondary-light transition-all duration-300 font-semibold inline-block active:scale-95;
   }
+  .btn-dark-teal {
+    @apply bg-primary-950 text-white px-7 py-3 rounded-full hover:bg-primary-900 transition-all duration-300 font-semibold inline-block active:scale-95;
+  }
 
   /* Layout */
   .section-padding {

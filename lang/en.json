@@ -14,7 +14,9 @@
     "title": "Your Recovery Starts Here",
     "subtitle": "SEMIMED Rehabilitation Center — modern recovery methods, experienced specialists, and a personalized approach to every patient",
     "cta_primary": "Book an Appointment",
-    "cta_secondary": "Learn More"
+    "cta_secondary": "Learn More",
+    "trust1": "Evidence-Based Medicine",
+    "trust2": "Certified Specialists"
   },
   "services": {
     "badge": "Services",
@@ -48,11 +50,16 @@
     "learn_more": "Learn More"
   },
   "about": {
+    "badge": "About Us",
     "section_title": "About SEMIMED Center",
     "section_subtitle": "Your reliable partner on the road to recovery",
     "description": "SEMIMED Rehabilitation Center combines modern technology with an individual approach. Our team of experienced professionals will help you return to a full and active life.",
     "description2": "We use state-of-the-art equipment and evidence-based rehabilitation techniques to ensure the most effective recovery for every patient.",
     "learn_more": "Learn More About Us",
+    "feature1_title": "Evidence-Based Methods",
+    "feature1_text": "We use only methods whose effectiveness has been proven by clinical research.",
+    "feature2_title": "Qualified Team",
+    "feature2_text": "Our specialists regularly undergo training and improve their qualifications.",
     "stats": {
       "years": "Years of Experience",
       "patients": "Satisfied Patients",
@@ -296,16 +303,16 @@
     "methods_title": "Treatment & Rehabilitation Methods",
     "methods_subtitle": "We use a comprehensive approach and modern techniques for effective recovery",
     "m": {
-      "neurorehab": { "title": "Neurorehabilitation", "desc": "Recovery after strokes, traumatic brain injuries, and neurological disorders." },
-      "trauma": { "title": "Trauma Rehabilitation", "desc": "Comprehensive recovery after fractures, sprains, and surgical interventions." },
-      "spine": { "title": "Spine Rehabilitation", "desc": "Treatment and prevention of spinal and musculoskeletal disorders." },
-      "massage": { "title": "Therapeutic Massage", "desc": "Relieving muscle tension, improving blood circulation, and accelerating recovery." },
-      "mechano": { "title": "Mechanotherapy", "desc": "Recovery using specialized exercise machines and mechanical devices." },
-      "evminov": { "title": "Evminov Trainer", "desc": "Spinal traction and back muscle strengthening on a specialized trainer." },
-      "lfk": { "title": "Therapeutic Exercise (LFK)", "desc": "Physical therapy exercises for body strengthening and disease prevention." },
-      "kinesio": { "title": "Kinesiotherapy", "desc": "Treatment through movement — individual exercise programs for functional recovery." },
-      "manual": { "title": "Manual Therapy", "desc": "Hands-on techniques for restoring joint mobility and releasing muscle blocks." },
-      "pir": { "title": "Post-Isometric Relaxation (PIR)", "desc": "Gentle muscle stretching to eliminate spasms and restore mobility." }
+      "neurorehab": { "title": "Neurorehabilitation", "desc": "Recovery after strokes, traumatic brain injuries, and neurological disorders.", "detail": "Covers recovery after ischemic and hemorrhagic strokes, traumatic brain injuries, multiple sclerosis, and Parkinson's disease. We apply PNF techniques, balance training, and cognitive rehabilitation." },
+      "trauma": { "title": "Trauma Rehabilitation", "desc": "Comprehensive recovery after fractures, sprains, and surgical interventions.", "detail": "Recovery programs after fractures, ligament and tendon surgeries, and joint replacements. Includes manual therapy, therapeutic exercise, and physiotherapy procedures." },
+      "spine": { "title": "Spine Rehabilitation", "desc": "Treatment and prevention of spinal and musculoskeletal disorders.", "detail": "Comprehensive treatment of herniated discs, scoliosis, osteochondrosis, and spondylosis. We use traction, manual therapy, and targeted exercises to strengthen stabilizing muscles." },
+      "massage": { "title": "Therapeutic Massage", "desc": "Relieving muscle tension, improving blood circulation, and accelerating recovery.", "detail": "Classic therapeutic, sports, lymphatic drainage massage, and massage for spinal conditions. Effectively relieves pain, restores muscle tone, and improves microcirculation." },
+      "mechano": { "title": "Mechanotherapy", "desc": "Recovery using specialized exercise machines and mechanical devices.", "detail": "Restoring joint and muscle mobility and strength using specialized equipment. Used for contractures, after fractures and surgeries to speed up functional recovery." },
+      "evminov": { "title": "Evminov Trainer", "desc": "Spinal traction and back muscle strengthening on a specialized trainer.", "detail": "Therapeutic traction and strengthening of deep back muscles on the Evminov incline board. Effective for hernias, protrusions, scoliosis, and chronic spinal pain." },
+      "lfk": { "title": "Therapeutic Exercise (LFK)", "desc": "Physical therapy exercises for body strengthening and disease prevention.", "detail": "Individually selected exercise complexes for recovery after injuries and surgeries, posture correction, and prevention of musculoskeletal disorders." },
+      "kinesio": { "title": "Kinesiotherapy", "desc": "Treatment through movement — individual exercise programs for functional recovery.", "detail": "Treatment through active and passive movement: Bobath therapy, PNF, functional training. Suitable for recovery after strokes, cerebral palsy, injuries, and musculoskeletal disorders." },
+      "manual": { "title": "Manual Therapy", "desc": "Hands-on techniques for restoring joint mobility and releasing muscle blocks.", "detail": "Soft and firm mobilization techniques for the joints of the spine and limbs. Eliminates joint blocks, restores mobility, and reduces pain without medication." },
+      "pir": { "title": "Post-Isometric Relaxation (PIR)", "desc": "Gentle muscle stretching to eliminate spasms and restore mobility.", "detail": "A technique for gently stretching contracted muscles after their isometric tension. Effectively eliminates muscle spasms, trigger points, and improves joint mobility." }
     },
     "conditions_badge": "Specializations",
     "conditions_title": "Conditions We Treat",
